@@ -6,7 +6,7 @@ use yii\helpers\Url;
 /* @var $this yii\web\View */
 /* @var $model app\models\NixShortUrls */
 /* @var $form ActiveForm */
-$this->title = 'Short URL';
+$this->title = 'Укоротитель ссылок';
 ?>
 <div class="site-index">
 
@@ -26,9 +26,9 @@ $this->title = 'Short URL';
                 <table cellspacing="0" class="table">
                     <thead>
                     <tr>
-                        <th>LONG URL</th>
-                        <th>CREATED</th>
-                        <th>SHORT URL</th>
+                        <th>Ссылка</th>
+                        <th>Дата создания</th>
+                        <th>Короткий url</th>
                     </tr>
                     </thead>
                     <tbody>
